@@ -22,6 +22,24 @@ Done
 User ID: yMMqdt2kVaumK2wJZl3QpQAAAUxTkZuNl3LluSuw0Y8
 Done
 
-// Mary is looking at Oak Door and wants to know what other users usually get
+// Mary is looking at Oak Door and wants to know what other users usually get. She gets recommended Oak Varnish
 ~/Projects/cisco ❯ coffee bin/getComplementary.coffee --user yMMqdt2kVaumK2wJZl3QpQAAAUxTkZuNl3LluSuw0Y8 --items ccfb401a-088e-41e3-8d60-f3b4621ecebz
+Response {
+  "rules": [
+    {
+      "cond": [
+        "ccfb401a-088e-41e3-8d60-f3b4621ecebz"
+      ],
+      "itemScores": [
+        {
+          "item": "ccfb401a-088e-41e3-8d60-f3b4621ecebx",
+          "support": 1,
+          "confidence": 1,
+          "lift": 1
+        }
+      ]
+    }
+  ]
+}
+Done
 ```
