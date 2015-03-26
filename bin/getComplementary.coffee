@@ -20,6 +20,6 @@ createUser = (user, cb) ->
 
 createUser user, (err, res) ->
   console.error err if err?
-  console.log 'Response', res if res?
+  console.log 'Response', JSON.stringify(res, null, 2) if res?
   console.log 'Done'
   process.exit()
